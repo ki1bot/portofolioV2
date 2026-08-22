@@ -22,10 +22,4 @@ export default defineConfig([
       },
     },
   },
-  {
-    files: ["api/**/*.js"],
-    languageOptions: {
-      globals: globals.node,
-    },
-  },
 ]);
